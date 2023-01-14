@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: blue;
+    background-size: 100%;
+}
+
+header {
+    position: relative;
+    background-color: azure;
+}
+
+.header-wrapper img {
+    margin-left: 375px;
+}
+
+.btn {
+    position: absolute;
+    left: 600px;
+    bottom: 30px;
+    --bs-btn-bg: blue;
+    --bs-btn-border-color: blue;
+    --bs-btn-active-bg: blue;
+    --bs-btn-active-border-color: blue;
+    --bs-btn-disabled-bg: blue;
+    --bs-btn-disabled-border-color: blue;
+    --bs-btn-hover-bg: blue;
+    --bs-btn-hover-border-color: blue;
+
+
+
+}
+
+.dropdown-menu {
+    --bs-dropdown-bg: black;
+    --bs-dropdown-link-color: white;
+    --bs-dropdown-link-hover-color: black;
+}
